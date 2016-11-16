@@ -10,7 +10,7 @@ inputs:
   - name: target-repo
 
 outputs:
-  - name: updated-gist
+  - name: updated-repo
 
 run:
   path: source-code/commit.sh
