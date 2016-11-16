@@ -14,3 +14,4 @@ outputs:
 
 run:
   path: source-code/commit.sh
+
