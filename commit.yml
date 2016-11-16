@@ -6,7 +6,7 @@ image_resource:
   source: { repository: concourse/bosh-cli }
 
 inputs:
-  - name: source-codes
+  - name: source-code
   - name: target-repo
 
 outputs:
