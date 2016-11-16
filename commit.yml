@@ -6,11 +6,11 @@ image_resource:
   source: { repository: concourse/bosh-cli }
 
 inputs:
-  - name: resource-pipeline
+  - name: source-codes
   - name: target-repo
 
 outputs:
   - name: updated-gist
 
 run:
-  path: resource-pipeline/commit.sh
+  path: source-code/commit.sh
